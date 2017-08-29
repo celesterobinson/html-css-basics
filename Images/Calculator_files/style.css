@@ -1,0 +1,11 @@
+body {
+    font-family: fantasy, georgia, times;
+    background-color: #0f5e9c;
+}
+.background {
+    display: flex;
+    align-content: center;
+    width: 85%;
+    height: 400px;
+    background-color: #5f574e;
+}

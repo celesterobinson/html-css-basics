@@ -1,0 +1,143 @@
+/* Lines 2-55 comprise instructions #1-#9 on the PDF.*/
+p {
+    font-family: fantasy;
+}
+
+body {
+    background: url(Images/crinkle_paper.jpg) no-repeat fixed top center;
+    background-color: #456171;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.share ul {
+    list-style: none;
+}
+
+.share li{
+    display: inline;
+}
+
+ul img {
+    background-color: black;
+}
+
+ul img:hover {
+  background-color: white;
+}
+
+#menu li {
+    background-color: #126bbf;
+}
+
+p.larger-size {
+    font-size: 20px;
+}
+
+h4.larger-size {
+    font-size: 24px;
+}
+
+#dropdown-menu li:nth-child(3) {
+    background-color: white;
+}
+
+#blog-post p:last-of-type {
+    color: blue;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+/*The remainder of CSS code contains edits based on instructions
+from the HTML file, and also extra things I did to practice.*/
+
+#logo {
+    padding: 0px;
+    margin: 0px 0px 0px 40px;
+    float: left;
+    height: 90px;
+    width: auto;
+}
+
+#menu {
+    display: inline;
+    width: 150px;
+    margin: 40px;
+    font-family: fantasy;
+}
+
+.header {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header ul {
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
+    list-style: none;
+}
+
+.header li {
+    display: inline;
+}
+
+h1 {
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    margin: 0;
+    font-family: fantasy;
+    padding-top: 10px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    margin: 15px 0px 30px 0px;
+    background: url(Images/book_heart.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px;
+    height: 325px;
+    line-height: 125px;
+}
+
+#author {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    border: solid white 2px;
+}
+
+h3 {
+    display: inline;
+    margin-top: 30px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+#blog-post {
+    margin-left: 10px;
+    margin-right: 10px;
+}
